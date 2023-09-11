@@ -67,7 +67,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  flex-grow: 1;
 }
 
 .logo {
@@ -92,9 +91,7 @@ img {
 }
 
 .nav-link {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 40px;
+  display: block;
   padding: 24px 0;
   color: var(--NAVY-BLUE);
   font-weight: 500;
@@ -113,7 +110,6 @@ img {
 
 .address-section {
   font-style: normal;
-  display: flex;
   margin-left: auto;
 }
 
